@@ -19,7 +19,7 @@ public class ContaTerminal {
         System.out.println("Agora por último, por favor nos diga quanto de saldo possui em sua conta bancária !");
         int saldoContaBancaria = scanner.nextInt();
 
-        System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco. Sua Agência é a de número " + numeroAgenciaBancaria + ", conta " + numeroContaBancaria + " e seu saldo de R$" + saldoContaBancaria + " já está disponível para saque.");
+        System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco. Sua agência é a %s, conta %s e seu saldo de R$%s já está disponível para saque.", nomeCliente, numeroAgenciaBancaria, numeroContaBancaria, saldoContaBancaria);
 
     }
 }
